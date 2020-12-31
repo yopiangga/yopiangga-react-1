@@ -1,8 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
 
-import './assets/css/css-reset.css';
-import './assets/scss/style.css';
+import '../assets/css/css-reset.css';
+import '../assets/scss/style.css';
 
 function Nav() {
   return (
@@ -35,17 +33,5 @@ function Nav() {
   );
 }
 
-function mainHome(){
-  return (
-    <section className="main-home">
-      <div className="content">
-        <div className="left">
-          
-        </div>
-        <div className="right"></div>
-      </div>
-    </section>
-  );
-}
 
-
+export default Nav;

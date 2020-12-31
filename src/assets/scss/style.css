@@ -230,6 +230,43 @@ nav .content .right .button .btn-signup {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
+}
+
+.main-home .content .circle-animation {
+  border-radius: 50px;
+  position: absolute;
+  z-index: 12;
+}
+
+.main-home .content .circle-animation-1 {
+  background-color: #212832;
+  left: 0;
+  top: 30px;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: circle-animation-1 4000ms infinite;
+          animation: circle-animation-1 4000ms infinite;
+}
+
+.main-home .content .circle-animation-2 {
+  background-color: #ffc736;
+  right: 30px;
+  top: 240px;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: circle-animation-2 3s infinite;
+          animation: circle-animation-2 3s infinite;
+}
+
+.main-home .content .circle-animation-3 {
+  background-color: #ff541e;
+  left: 0;
+  bottom: 30px;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: circle-animation-3 3000ms infinite;
+          animation: circle-animation-3 3000ms infinite;
 }
 
 .main-home .content .left {
@@ -390,6 +427,17 @@ nav .content .right .button .btn-signup {
   z-index: 10;
 }
 
+.main-home .content .right .slider .images .img.active {
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  top: -25px;
+  height: 250px;
+  width: 220px;
+  -webkit-box-shadow: 0 0 50px rgba(33, 40, 50, 0.1);
+          box-shadow: 0 0 50px rgba(33, 40, 50, 0.1);
+  z-index: 10;
+}
+
 .main-home .content .right .slider .images .img1 {
   left: 0;
 }
@@ -404,6 +452,1842 @@ nav .content .right .button .btn-signup {
 
 .main-home .content .right .slider .images .img4 {
   left: 600px;
+}
+
+@-webkit-keyframes circle-animation-1 {
+  0% {
+    top: 30px;
+  }
+  1% {
+    top: 31px;
+  }
+  2% {
+    top: 32px;
+  }
+  3% {
+    top: 33px;
+  }
+  4% {
+    top: 34px;
+  }
+  5% {
+    top: 35px;
+  }
+  6% {
+    top: 36px;
+  }
+  7% {
+    top: 37px;
+  }
+  8% {
+    top: 38px;
+  }
+  9% {
+    top: 39px;
+  }
+  10% {
+    top: 40px;
+  }
+  11% {
+    top: 41px;
+  }
+  12% {
+    top: 42px;
+  }
+  13% {
+    top: 43px;
+  }
+  14% {
+    top: 44px;
+  }
+  15% {
+    top: 45px;
+  }
+  16% {
+    top: 46px;
+  }
+  17% {
+    top: 47px;
+  }
+  18% {
+    top: 48px;
+  }
+  19% {
+    top: 49px;
+  }
+  20% {
+    top: 50px;
+  }
+  21% {
+    top: 51px;
+  }
+  22% {
+    top: 52px;
+  }
+  23% {
+    top: 53px;
+  }
+  24% {
+    top: 54px;
+  }
+  25% {
+    top: 55px;
+  }
+  26% {
+    top: 54px;
+  }
+  27% {
+    top: 53px;
+  }
+  28% {
+    top: 52px;
+  }
+  29% {
+    top: 51px;
+  }
+  30% {
+    top: 50px;
+  }
+  31% {
+    top: 49px;
+  }
+  32% {
+    top: 48px;
+  }
+  33% {
+    top: 47px;
+  }
+  34% {
+    top: 46px;
+  }
+  35% {
+    top: 45px;
+  }
+  36% {
+    top: 44px;
+  }
+  37% {
+    top: 43px;
+  }
+  38% {
+    top: 42px;
+  }
+  39% {
+    top: 41px;
+  }
+  40% {
+    top: 40px;
+  }
+  41% {
+    top: 39px;
+  }
+  42% {
+    top: 38px;
+  }
+  43% {
+    top: 37px;
+  }
+  44% {
+    top: 36px;
+  }
+  45% {
+    top: 35px;
+  }
+  46% {
+    top: 34px;
+  }
+  47% {
+    top: 33px;
+  }
+  48% {
+    top: 32px;
+  }
+  49% {
+    top: 31px;
+  }
+  50% {
+    top: 30px;
+  }
+  51% {
+    top: 29px;
+  }
+  52% {
+    top: 28px;
+  }
+  53% {
+    top: 27px;
+  }
+  54% {
+    top: 26px;
+  }
+  55% {
+    top: 25px;
+  }
+  56% {
+    top: 24px;
+  }
+  57% {
+    top: 23px;
+  }
+  58% {
+    top: 22px;
+  }
+  59% {
+    top: 21px;
+  }
+  60% {
+    top: 20px;
+  }
+  61% {
+    top: 19px;
+  }
+  62% {
+    top: 18px;
+  }
+  63% {
+    top: 17px;
+  }
+  64% {
+    top: 16px;
+  }
+  65% {
+    top: 15px;
+  }
+  66% {
+    top: 14px;
+  }
+  67% {
+    top: 13px;
+  }
+  68% {
+    top: 12px;
+  }
+  69% {
+    top: 11px;
+  }
+  70% {
+    top: 10px;
+  }
+  71% {
+    top: 9px;
+  }
+  72% {
+    top: 8px;
+  }
+  73% {
+    top: 7px;
+  }
+  74% {
+    top: 6px;
+  }
+  75% {
+    top: 5px;
+  }
+  76% {
+    top: 6px;
+  }
+  77% {
+    top: 7px;
+  }
+  78% {
+    top: 8px;
+  }
+  79% {
+    top: 9px;
+  }
+  80% {
+    top: 10px;
+  }
+  81% {
+    top: 11px;
+  }
+  82% {
+    top: 12px;
+  }
+  83% {
+    top: 13px;
+  }
+  84% {
+    top: 14px;
+  }
+  85% {
+    top: 15px;
+  }
+  86% {
+    top: 16px;
+  }
+  87% {
+    top: 17px;
+  }
+  88% {
+    top: 18px;
+  }
+  89% {
+    top: 19px;
+  }
+  90% {
+    top: 20px;
+  }
+  91% {
+    top: 21px;
+  }
+  92% {
+    top: 22px;
+  }
+  93% {
+    top: 23px;
+  }
+  94% {
+    top: 24px;
+  }
+  95% {
+    top: 25px;
+  }
+  96% {
+    top: 26px;
+  }
+  97% {
+    top: 27px;
+  }
+  98% {
+    top: 28px;
+  }
+  99% {
+    top: 29px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+
+@keyframes circle-animation-1 {
+  0% {
+    top: 30px;
+  }
+  1% {
+    top: 31px;
+  }
+  2% {
+    top: 32px;
+  }
+  3% {
+    top: 33px;
+  }
+  4% {
+    top: 34px;
+  }
+  5% {
+    top: 35px;
+  }
+  6% {
+    top: 36px;
+  }
+  7% {
+    top: 37px;
+  }
+  8% {
+    top: 38px;
+  }
+  9% {
+    top: 39px;
+  }
+  10% {
+    top: 40px;
+  }
+  11% {
+    top: 41px;
+  }
+  12% {
+    top: 42px;
+  }
+  13% {
+    top: 43px;
+  }
+  14% {
+    top: 44px;
+  }
+  15% {
+    top: 45px;
+  }
+  16% {
+    top: 46px;
+  }
+  17% {
+    top: 47px;
+  }
+  18% {
+    top: 48px;
+  }
+  19% {
+    top: 49px;
+  }
+  20% {
+    top: 50px;
+  }
+  21% {
+    top: 51px;
+  }
+  22% {
+    top: 52px;
+  }
+  23% {
+    top: 53px;
+  }
+  24% {
+    top: 54px;
+  }
+  25% {
+    top: 55px;
+  }
+  26% {
+    top: 54px;
+  }
+  27% {
+    top: 53px;
+  }
+  28% {
+    top: 52px;
+  }
+  29% {
+    top: 51px;
+  }
+  30% {
+    top: 50px;
+  }
+  31% {
+    top: 49px;
+  }
+  32% {
+    top: 48px;
+  }
+  33% {
+    top: 47px;
+  }
+  34% {
+    top: 46px;
+  }
+  35% {
+    top: 45px;
+  }
+  36% {
+    top: 44px;
+  }
+  37% {
+    top: 43px;
+  }
+  38% {
+    top: 42px;
+  }
+  39% {
+    top: 41px;
+  }
+  40% {
+    top: 40px;
+  }
+  41% {
+    top: 39px;
+  }
+  42% {
+    top: 38px;
+  }
+  43% {
+    top: 37px;
+  }
+  44% {
+    top: 36px;
+  }
+  45% {
+    top: 35px;
+  }
+  46% {
+    top: 34px;
+  }
+  47% {
+    top: 33px;
+  }
+  48% {
+    top: 32px;
+  }
+  49% {
+    top: 31px;
+  }
+  50% {
+    top: 30px;
+  }
+  51% {
+    top: 29px;
+  }
+  52% {
+    top: 28px;
+  }
+  53% {
+    top: 27px;
+  }
+  54% {
+    top: 26px;
+  }
+  55% {
+    top: 25px;
+  }
+  56% {
+    top: 24px;
+  }
+  57% {
+    top: 23px;
+  }
+  58% {
+    top: 22px;
+  }
+  59% {
+    top: 21px;
+  }
+  60% {
+    top: 20px;
+  }
+  61% {
+    top: 19px;
+  }
+  62% {
+    top: 18px;
+  }
+  63% {
+    top: 17px;
+  }
+  64% {
+    top: 16px;
+  }
+  65% {
+    top: 15px;
+  }
+  66% {
+    top: 14px;
+  }
+  67% {
+    top: 13px;
+  }
+  68% {
+    top: 12px;
+  }
+  69% {
+    top: 11px;
+  }
+  70% {
+    top: 10px;
+  }
+  71% {
+    top: 9px;
+  }
+  72% {
+    top: 8px;
+  }
+  73% {
+    top: 7px;
+  }
+  74% {
+    top: 6px;
+  }
+  75% {
+    top: 5px;
+  }
+  76% {
+    top: 6px;
+  }
+  77% {
+    top: 7px;
+  }
+  78% {
+    top: 8px;
+  }
+  79% {
+    top: 9px;
+  }
+  80% {
+    top: 10px;
+  }
+  81% {
+    top: 11px;
+  }
+  82% {
+    top: 12px;
+  }
+  83% {
+    top: 13px;
+  }
+  84% {
+    top: 14px;
+  }
+  85% {
+    top: 15px;
+  }
+  86% {
+    top: 16px;
+  }
+  87% {
+    top: 17px;
+  }
+  88% {
+    top: 18px;
+  }
+  89% {
+    top: 19px;
+  }
+  90% {
+    top: 20px;
+  }
+  91% {
+    top: 21px;
+  }
+  92% {
+    top: 22px;
+  }
+  93% {
+    top: 23px;
+  }
+  94% {
+    top: 24px;
+  }
+  95% {
+    top: 25px;
+  }
+  96% {
+    top: 26px;
+  }
+  97% {
+    top: 27px;
+  }
+  98% {
+    top: 28px;
+  }
+  99% {
+    top: 29px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+
+@-webkit-keyframes circle-animation-2 {
+  0% {
+    right: 30px;
+  }
+  1% {
+    right: 31px;
+  }
+  2% {
+    right: 32px;
+  }
+  3% {
+    right: 33px;
+  }
+  4% {
+    right: 34px;
+  }
+  5% {
+    right: 35px;
+  }
+  6% {
+    right: 36px;
+  }
+  7% {
+    right: 37px;
+  }
+  8% {
+    right: 38px;
+  }
+  9% {
+    right: 39px;
+  }
+  10% {
+    right: 40px;
+  }
+  11% {
+    right: 41px;
+  }
+  12% {
+    right: 42px;
+  }
+  13% {
+    right: 43px;
+  }
+  14% {
+    right: 44px;
+  }
+  15% {
+    right: 45px;
+  }
+  16% {
+    right: 46px;
+  }
+  17% {
+    right: 47px;
+  }
+  18% {
+    right: 48px;
+  }
+  19% {
+    right: 49px;
+  }
+  20% {
+    right: 50px;
+  }
+  21% {
+    right: 51px;
+  }
+  22% {
+    right: 52px;
+  }
+  23% {
+    right: 53px;
+  }
+  24% {
+    right: 54px;
+  }
+  25% {
+    right: 55px;
+  }
+  26% {
+    right: 54px;
+  }
+  27% {
+    right: 53px;
+  }
+  28% {
+    right: 52px;
+  }
+  29% {
+    right: 51px;
+  }
+  30% {
+    right: 50px;
+  }
+  31% {
+    right: 49px;
+  }
+  32% {
+    right: 48px;
+  }
+  33% {
+    right: 47px;
+  }
+  34% {
+    right: 46px;
+  }
+  35% {
+    right: 45px;
+  }
+  36% {
+    right: 44px;
+  }
+  37% {
+    right: 43px;
+  }
+  38% {
+    right: 42px;
+  }
+  39% {
+    right: 41px;
+  }
+  40% {
+    right: 40px;
+  }
+  41% {
+    right: 39px;
+  }
+  42% {
+    right: 38px;
+  }
+  43% {
+    right: 37px;
+  }
+  44% {
+    right: 36px;
+  }
+  45% {
+    right: 35px;
+  }
+  46% {
+    right: 34px;
+  }
+  47% {
+    right: 33px;
+  }
+  48% {
+    right: 32px;
+  }
+  49% {
+    right: 31px;
+  }
+  50% {
+    right: 30px;
+  }
+  51% {
+    right: 29px;
+  }
+  52% {
+    right: 28px;
+  }
+  53% {
+    right: 27px;
+  }
+  54% {
+    right: 26px;
+  }
+  55% {
+    right: 25px;
+  }
+  56% {
+    right: 24px;
+  }
+  57% {
+    right: 23px;
+  }
+  58% {
+    right: 22px;
+  }
+  59% {
+    right: 21px;
+  }
+  60% {
+    right: 20px;
+  }
+  61% {
+    right: 19px;
+  }
+  62% {
+    right: 18px;
+  }
+  63% {
+    right: 17px;
+  }
+  64% {
+    right: 16px;
+  }
+  65% {
+    right: 15px;
+  }
+  66% {
+    right: 14px;
+  }
+  67% {
+    right: 13px;
+  }
+  68% {
+    right: 12px;
+  }
+  69% {
+    right: 11px;
+  }
+  70% {
+    right: 10px;
+  }
+  71% {
+    right: 9px;
+  }
+  72% {
+    right: 8px;
+  }
+  73% {
+    right: 7px;
+  }
+  74% {
+    right: 6px;
+  }
+  75% {
+    right: 5px;
+  }
+  76% {
+    right: 6px;
+  }
+  77% {
+    right: 7px;
+  }
+  78% {
+    right: 8px;
+  }
+  79% {
+    right: 9px;
+  }
+  80% {
+    right: 10px;
+  }
+  81% {
+    right: 11px;
+  }
+  82% {
+    right: 12px;
+  }
+  83% {
+    right: 13px;
+  }
+  84% {
+    right: 14px;
+  }
+  85% {
+    right: 15px;
+  }
+  86% {
+    right: 16px;
+  }
+  87% {
+    right: 17px;
+  }
+  88% {
+    right: 18px;
+  }
+  89% {
+    right: 19px;
+  }
+  90% {
+    right: 20px;
+  }
+  91% {
+    right: 21px;
+  }
+  92% {
+    right: 22px;
+  }
+  93% {
+    right: 23px;
+  }
+  94% {
+    right: 24px;
+  }
+  95% {
+    right: 25px;
+  }
+  96% {
+    right: 26px;
+  }
+  97% {
+    right: 27px;
+  }
+  98% {
+    right: 28px;
+  }
+  99% {
+    right: 29px;
+  }
+  100% {
+    right: 30px;
+  }
+}
+
+@keyframes circle-animation-2 {
+  0% {
+    right: 30px;
+  }
+  1% {
+    right: 31px;
+  }
+  2% {
+    right: 32px;
+  }
+  3% {
+    right: 33px;
+  }
+  4% {
+    right: 34px;
+  }
+  5% {
+    right: 35px;
+  }
+  6% {
+    right: 36px;
+  }
+  7% {
+    right: 37px;
+  }
+  8% {
+    right: 38px;
+  }
+  9% {
+    right: 39px;
+  }
+  10% {
+    right: 40px;
+  }
+  11% {
+    right: 41px;
+  }
+  12% {
+    right: 42px;
+  }
+  13% {
+    right: 43px;
+  }
+  14% {
+    right: 44px;
+  }
+  15% {
+    right: 45px;
+  }
+  16% {
+    right: 46px;
+  }
+  17% {
+    right: 47px;
+  }
+  18% {
+    right: 48px;
+  }
+  19% {
+    right: 49px;
+  }
+  20% {
+    right: 50px;
+  }
+  21% {
+    right: 51px;
+  }
+  22% {
+    right: 52px;
+  }
+  23% {
+    right: 53px;
+  }
+  24% {
+    right: 54px;
+  }
+  25% {
+    right: 55px;
+  }
+  26% {
+    right: 54px;
+  }
+  27% {
+    right: 53px;
+  }
+  28% {
+    right: 52px;
+  }
+  29% {
+    right: 51px;
+  }
+  30% {
+    right: 50px;
+  }
+  31% {
+    right: 49px;
+  }
+  32% {
+    right: 48px;
+  }
+  33% {
+    right: 47px;
+  }
+  34% {
+    right: 46px;
+  }
+  35% {
+    right: 45px;
+  }
+  36% {
+    right: 44px;
+  }
+  37% {
+    right: 43px;
+  }
+  38% {
+    right: 42px;
+  }
+  39% {
+    right: 41px;
+  }
+  40% {
+    right: 40px;
+  }
+  41% {
+    right: 39px;
+  }
+  42% {
+    right: 38px;
+  }
+  43% {
+    right: 37px;
+  }
+  44% {
+    right: 36px;
+  }
+  45% {
+    right: 35px;
+  }
+  46% {
+    right: 34px;
+  }
+  47% {
+    right: 33px;
+  }
+  48% {
+    right: 32px;
+  }
+  49% {
+    right: 31px;
+  }
+  50% {
+    right: 30px;
+  }
+  51% {
+    right: 29px;
+  }
+  52% {
+    right: 28px;
+  }
+  53% {
+    right: 27px;
+  }
+  54% {
+    right: 26px;
+  }
+  55% {
+    right: 25px;
+  }
+  56% {
+    right: 24px;
+  }
+  57% {
+    right: 23px;
+  }
+  58% {
+    right: 22px;
+  }
+  59% {
+    right: 21px;
+  }
+  60% {
+    right: 20px;
+  }
+  61% {
+    right: 19px;
+  }
+  62% {
+    right: 18px;
+  }
+  63% {
+    right: 17px;
+  }
+  64% {
+    right: 16px;
+  }
+  65% {
+    right: 15px;
+  }
+  66% {
+    right: 14px;
+  }
+  67% {
+    right: 13px;
+  }
+  68% {
+    right: 12px;
+  }
+  69% {
+    right: 11px;
+  }
+  70% {
+    right: 10px;
+  }
+  71% {
+    right: 9px;
+  }
+  72% {
+    right: 8px;
+  }
+  73% {
+    right: 7px;
+  }
+  74% {
+    right: 6px;
+  }
+  75% {
+    right: 5px;
+  }
+  76% {
+    right: 6px;
+  }
+  77% {
+    right: 7px;
+  }
+  78% {
+    right: 8px;
+  }
+  79% {
+    right: 9px;
+  }
+  80% {
+    right: 10px;
+  }
+  81% {
+    right: 11px;
+  }
+  82% {
+    right: 12px;
+  }
+  83% {
+    right: 13px;
+  }
+  84% {
+    right: 14px;
+  }
+  85% {
+    right: 15px;
+  }
+  86% {
+    right: 16px;
+  }
+  87% {
+    right: 17px;
+  }
+  88% {
+    right: 18px;
+  }
+  89% {
+    right: 19px;
+  }
+  90% {
+    right: 20px;
+  }
+  91% {
+    right: 21px;
+  }
+  92% {
+    right: 22px;
+  }
+  93% {
+    right: 23px;
+  }
+  94% {
+    right: 24px;
+  }
+  95% {
+    right: 25px;
+  }
+  96% {
+    right: 26px;
+  }
+  97% {
+    right: 27px;
+  }
+  98% {
+    right: 28px;
+  }
+  99% {
+    right: 29px;
+  }
+  100% {
+    right: 30px;
+  }
+}
+
+@-webkit-keyframes circle-animation-3 {
+  0% {
+    bottom: 30px;
+  }
+  1% {
+    bottom: 31px;
+  }
+  2% {
+    bottom: 32px;
+  }
+  3% {
+    bottom: 33px;
+  }
+  4% {
+    bottom: 34px;
+  }
+  5% {
+    bottom: 35px;
+  }
+  6% {
+    bottom: 36px;
+  }
+  7% {
+    bottom: 37px;
+  }
+  8% {
+    bottom: 38px;
+  }
+  9% {
+    bottom: 39px;
+  }
+  10% {
+    bottom: 40px;
+  }
+  11% {
+    bottom: 41px;
+  }
+  12% {
+    bottom: 42px;
+  }
+  13% {
+    bottom: 43px;
+  }
+  14% {
+    bottom: 44px;
+  }
+  15% {
+    bottom: 45px;
+  }
+  16% {
+    bottom: 46px;
+  }
+  17% {
+    bottom: 47px;
+  }
+  18% {
+    bottom: 48px;
+  }
+  19% {
+    bottom: 49px;
+  }
+  20% {
+    bottom: 50px;
+  }
+  21% {
+    bottom: 51px;
+  }
+  22% {
+    bottom: 52px;
+  }
+  23% {
+    bottom: 53px;
+  }
+  24% {
+    bottom: 54px;
+  }
+  25% {
+    bottom: 55px;
+  }
+  26% {
+    bottom: 54px;
+  }
+  27% {
+    bottom: 53px;
+  }
+  28% {
+    bottom: 52px;
+  }
+  29% {
+    bottom: 51px;
+  }
+  30% {
+    bottom: 50px;
+  }
+  31% {
+    bottom: 49px;
+  }
+  32% {
+    bottom: 48px;
+  }
+  33% {
+    bottom: 47px;
+  }
+  34% {
+    bottom: 46px;
+  }
+  35% {
+    bottom: 45px;
+  }
+  36% {
+    bottom: 44px;
+  }
+  37% {
+    bottom: 43px;
+  }
+  38% {
+    bottom: 42px;
+  }
+  39% {
+    bottom: 41px;
+  }
+  40% {
+    bottom: 40px;
+  }
+  41% {
+    bottom: 39px;
+  }
+  42% {
+    bottom: 38px;
+  }
+  43% {
+    bottom: 37px;
+  }
+  44% {
+    bottom: 36px;
+  }
+  45% {
+    bottom: 35px;
+  }
+  46% {
+    bottom: 34px;
+  }
+  47% {
+    bottom: 33px;
+  }
+  48% {
+    bottom: 32px;
+  }
+  49% {
+    bottom: 31px;
+  }
+  50% {
+    bottom: 30px;
+  }
+  51% {
+    bottom: 29px;
+  }
+  52% {
+    bottom: 28px;
+  }
+  53% {
+    bottom: 27px;
+  }
+  54% {
+    bottom: 26px;
+  }
+  55% {
+    bottom: 25px;
+  }
+  56% {
+    bottom: 24px;
+  }
+  57% {
+    bottom: 23px;
+  }
+  58% {
+    bottom: 22px;
+  }
+  59% {
+    bottom: 21px;
+  }
+  60% {
+    bottom: 20px;
+  }
+  61% {
+    bottom: 19px;
+  }
+  62% {
+    bottom: 18px;
+  }
+  63% {
+    bottom: 17px;
+  }
+  64% {
+    bottom: 16px;
+  }
+  65% {
+    bottom: 15px;
+  }
+  66% {
+    bottom: 14px;
+  }
+  67% {
+    bottom: 13px;
+  }
+  68% {
+    bottom: 12px;
+  }
+  69% {
+    bottom: 11px;
+  }
+  70% {
+    bottom: 10px;
+  }
+  71% {
+    bottom: 9px;
+  }
+  72% {
+    bottom: 8px;
+  }
+  73% {
+    bottom: 7px;
+  }
+  74% {
+    bottom: 6px;
+  }
+  75% {
+    bottom: 5px;
+  }
+  76% {
+    bottom: 6px;
+  }
+  77% {
+    bottom: 7px;
+  }
+  78% {
+    bottom: 8px;
+  }
+  79% {
+    bottom: 9px;
+  }
+  80% {
+    bottom: 10px;
+  }
+  81% {
+    bottom: 11px;
+  }
+  82% {
+    bottom: 12px;
+  }
+  83% {
+    bottom: 13px;
+  }
+  84% {
+    bottom: 14px;
+  }
+  85% {
+    bottom: 15px;
+  }
+  86% {
+    bottom: 16px;
+  }
+  87% {
+    bottom: 17px;
+  }
+  88% {
+    bottom: 18px;
+  }
+  89% {
+    bottom: 19px;
+  }
+  90% {
+    bottom: 20px;
+  }
+  91% {
+    bottom: 21px;
+  }
+  92% {
+    bottom: 22px;
+  }
+  93% {
+    bottom: 23px;
+  }
+  94% {
+    bottom: 24px;
+  }
+  95% {
+    bottom: 25px;
+  }
+  96% {
+    bottom: 26px;
+  }
+  97% {
+    bottom: 27px;
+  }
+  98% {
+    bottom: 28px;
+  }
+  99% {
+    bottom: 29px;
+  }
+  100% {
+    bottom: 30px;
+  }
+}
+
+@keyframes circle-animation-3 {
+  0% {
+    bottom: 30px;
+  }
+  1% {
+    bottom: 31px;
+  }
+  2% {
+    bottom: 32px;
+  }
+  3% {
+    bottom: 33px;
+  }
+  4% {
+    bottom: 34px;
+  }
+  5% {
+    bottom: 35px;
+  }
+  6% {
+    bottom: 36px;
+  }
+  7% {
+    bottom: 37px;
+  }
+  8% {
+    bottom: 38px;
+  }
+  9% {
+    bottom: 39px;
+  }
+  10% {
+    bottom: 40px;
+  }
+  11% {
+    bottom: 41px;
+  }
+  12% {
+    bottom: 42px;
+  }
+  13% {
+    bottom: 43px;
+  }
+  14% {
+    bottom: 44px;
+  }
+  15% {
+    bottom: 45px;
+  }
+  16% {
+    bottom: 46px;
+  }
+  17% {
+    bottom: 47px;
+  }
+  18% {
+    bottom: 48px;
+  }
+  19% {
+    bottom: 49px;
+  }
+  20% {
+    bottom: 50px;
+  }
+  21% {
+    bottom: 51px;
+  }
+  22% {
+    bottom: 52px;
+  }
+  23% {
+    bottom: 53px;
+  }
+  24% {
+    bottom: 54px;
+  }
+  25% {
+    bottom: 55px;
+  }
+  26% {
+    bottom: 54px;
+  }
+  27% {
+    bottom: 53px;
+  }
+  28% {
+    bottom: 52px;
+  }
+  29% {
+    bottom: 51px;
+  }
+  30% {
+    bottom: 50px;
+  }
+  31% {
+    bottom: 49px;
+  }
+  32% {
+    bottom: 48px;
+  }
+  33% {
+    bottom: 47px;
+  }
+  34% {
+    bottom: 46px;
+  }
+  35% {
+    bottom: 45px;
+  }
+  36% {
+    bottom: 44px;
+  }
+  37% {
+    bottom: 43px;
+  }
+  38% {
+    bottom: 42px;
+  }
+  39% {
+    bottom: 41px;
+  }
+  40% {
+    bottom: 40px;
+  }
+  41% {
+    bottom: 39px;
+  }
+  42% {
+    bottom: 38px;
+  }
+  43% {
+    bottom: 37px;
+  }
+  44% {
+    bottom: 36px;
+  }
+  45% {
+    bottom: 35px;
+  }
+  46% {
+    bottom: 34px;
+  }
+  47% {
+    bottom: 33px;
+  }
+  48% {
+    bottom: 32px;
+  }
+  49% {
+    bottom: 31px;
+  }
+  50% {
+    bottom: 30px;
+  }
+  51% {
+    bottom: 29px;
+  }
+  52% {
+    bottom: 28px;
+  }
+  53% {
+    bottom: 27px;
+  }
+  54% {
+    bottom: 26px;
+  }
+  55% {
+    bottom: 25px;
+  }
+  56% {
+    bottom: 24px;
+  }
+  57% {
+    bottom: 23px;
+  }
+  58% {
+    bottom: 22px;
+  }
+  59% {
+    bottom: 21px;
+  }
+  60% {
+    bottom: 20px;
+  }
+  61% {
+    bottom: 19px;
+  }
+  62% {
+    bottom: 18px;
+  }
+  63% {
+    bottom: 17px;
+  }
+  64% {
+    bottom: 16px;
+  }
+  65% {
+    bottom: 15px;
+  }
+  66% {
+    bottom: 14px;
+  }
+  67% {
+    bottom: 13px;
+  }
+  68% {
+    bottom: 12px;
+  }
+  69% {
+    bottom: 11px;
+  }
+  70% {
+    bottom: 10px;
+  }
+  71% {
+    bottom: 9px;
+  }
+  72% {
+    bottom: 8px;
+  }
+  73% {
+    bottom: 7px;
+  }
+  74% {
+    bottom: 6px;
+  }
+  75% {
+    bottom: 5px;
+  }
+  76% {
+    bottom: 6px;
+  }
+  77% {
+    bottom: 7px;
+  }
+  78% {
+    bottom: 8px;
+  }
+  79% {
+    bottom: 9px;
+  }
+  80% {
+    bottom: 10px;
+  }
+  81% {
+    bottom: 11px;
+  }
+  82% {
+    bottom: 12px;
+  }
+  83% {
+    bottom: 13px;
+  }
+  84% {
+    bottom: 14px;
+  }
+  85% {
+    bottom: 15px;
+  }
+  86% {
+    bottom: 16px;
+  }
+  87% {
+    bottom: 17px;
+  }
+  88% {
+    bottom: 18px;
+  }
+  89% {
+    bottom: 19px;
+  }
+  90% {
+    bottom: 20px;
+  }
+  91% {
+    bottom: 21px;
+  }
+  92% {
+    bottom: 22px;
+  }
+  93% {
+    bottom: 23px;
+  }
+  94% {
+    bottom: 24px;
+  }
+  95% {
+    bottom: 25px;
+  }
+  96% {
+    bottom: 26px;
+  }
+  97% {
+    bottom: 27px;
+  }
+  98% {
+    bottom: 28px;
+  }
+  99% {
+    bottom: 29px;
+  }
+  100% {
+    bottom: 30px;
+  }
 }
 
 @-webkit-keyframes hr-animation {

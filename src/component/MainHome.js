@@ -12,6 +12,9 @@ function MainHome(){
     return (
       <section className="main-home">
         <div className="content">
+            <div className="circle-animation circle-animation-1"></div>
+            <div className="circle-animation circle-animation-2"></div>
+            <div className="circle-animation circle-animation-3"></div>
           <div className="left">
             <div className="image">
                 <img src={model1} alt=""></img>
@@ -32,7 +35,7 @@ function MainHome(){
                     <div className="img img1">
                         <img src={model1} alt=""></img>
                     </div>
-                    <div className="img img2">
+                    <div className="img img2 active">
                         <img src={model2} alt=""></img>
                     </div>
                     <div className="img img3">

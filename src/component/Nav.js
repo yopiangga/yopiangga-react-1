@@ -9,7 +9,7 @@ function Nav() {
       <div className="content">
         <div className="left">
           <div className="logo">
-            <h2>Valco Inc</h2>
+            <h2>Clothes Inc</h2>
           </div>
         </div>
         <div className="center">

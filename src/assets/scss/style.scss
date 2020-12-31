@@ -51,6 +51,7 @@ nav {
     background-color: white;
     display: flex;
     justify-content: center;
+    position: fixed;
 
     .content {
         display: flex;
@@ -118,6 +119,7 @@ nav {
                         hr {
                             background-color: $color-primary;
                             transition: 300ms;
+                            animation: hr-animation 1s;
                         }
                     }
 
@@ -127,6 +129,7 @@ nav {
                         hr {
                             background-color: $color-primary;
                             transition: 300ms;
+                            animation: hr-animation 300ms;
                         }
                     }
                 }
@@ -173,10 +176,195 @@ nav {
 
 .main-home {
     width: 100%;
-    height: 100px;
-    background-color: orange;
+    height: 657px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
 
     .content {
-        
+        width: 90%;
+        display: flex;
+        justify-content: center;
+
+        .left {
+            width: 45%;
+
+            .image {
+                display: flex;
+                justify-content: flex-start;
+            }
+        }
+
+        .right {
+            width: 55%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .text {
+                margin-bottom: 30px;
+
+                h5 {
+                    color: $color-gray;
+                    margin-bottom: 10px;
+                }
+
+                h1 {
+                    color: $color-dark;
+                    font-size: 48px;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+
+                    span {
+                        color: $color-primary;
+                    }
+                }
+
+                p {
+                    color: $color-gray;
+                    line-height: 28px;
+                    font-size: 14px;
+                    margin-bottom: 30px;
+                }
+
+                .btn-explore {
+                    padding: 10px 20px 10px 20px;
+                    background-color: white;
+                    color: $color-dark;
+                    border: 2px solid $color-primary;
+                    border-radius: 5px;
+                    font-family: Poppins;
+                    font-weight: 600;
+                    box-shadow: 10px 10px 15px rgba($color: $color-dark, $alpha: 0.05);
+                    cursor: pointer;
+                    transition: 300ms;
+                }
+
+                .btn-explore:hover {
+                    transition: 300ms;
+                    background-color: $color-primary;
+                    color: white;
+                    box-shadow: 10px 10px 15px rgba($color: $color-primary, $alpha: 0.05);
+
+                }
+            }
+
+            .slider {
+                position: relative;
+                display: flex;
+                height: 200px;
+                justify-content: space-between;
+                align-items: center;
+
+                .circle {
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $color-light;
+                    z-index: 11;
+                    border-radius: 50px;
+                    transition: 300ms;
+                    cursor: pointer;
+                }
+
+                .circle:hover {
+                    transition: 300ms;
+                    background-color: $color-primary;
+                    color: white;
+                }
+
+                .images {
+                    display: flex;
+                    justify-content: space-between;
+                    position: absolute;
+                    top: 0;
+
+                    .img {
+                        width: 190px;
+                        height: 200px;
+                        overflow: hidden;
+                        background-color: white;
+                        position: absolute;
+                        transition: 300ms;
+                        border-radius: 10px;
+                        top: 0;
+                        cursor: pointer;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .img:hover {
+                        transition: 300ms;
+                        top: -25px;
+                        height: 250px;
+                        width: 220px;
+                        box-shadow: 0 0 50px rgba($color: $color-dark, $alpha: 0.1);
+                        z-index: 10;
+                    }
+
+                    .img1 {
+                        left: 0;
+                    }
+
+                    .img2 {
+                        left: 200px;
+                    }
+
+                    .img3 {
+                        left: 400px;
+                    }
+
+                    .img4 {
+                        left: 600px;
+                    }
+                }
+            }
+        }
     }
 }
+
+
+
+@keyframes hr-animation {
+    0%   { width: 1px;}
+    3%   { width: 2px;}
+    6%   { width: 3px;}
+    9%   { width: 4px;}
+    12%  { width: 5px;}
+    15%  { width: 6px;}
+    18%  { width: 7px;}
+    21%  { width: 8px;}
+    24%  { width: 9px;}
+    27%  { width: 10px;}
+    30%  { width: 11px;}
+    33%  { width: 12px;}
+    36%  { width: 13px;}
+    39%  { width: 14px;}
+    42%  { width: 15px;}
+    45%  { width: 16px;}
+    48%  { width: 17px;}
+    51%  { width: 18px;}
+    54%  { width: 19px;}
+    57%  { width: 20px;}
+    60%  { width: 21px;}
+    63%  { width: 22px;}
+    66%  { width: 23px;}
+    69%  { width: 24px;}
+    72%  { width: 25px;}
+    75%  { width: 26px;}
+    78%  { width: 27px;}
+    78%  { width: 28px;}
+    81%  { width: 29px;}
+    84%  { width: 30px;}
+    87%  { width: 30px;}
+    90%  { width: 30px;}
+    93% { width: 30px;}
+    96% { width: 30px;}
+    100% { width: 30px;}
+  }

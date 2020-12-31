@@ -1,6 +1,7 @@
 
 import '../assets/css/css-reset.css';
 import '../assets/scss/style.css';
+import '../assets/fonts/font-awesome/css/all.min.css';
 
 function Nav() {
   return (
